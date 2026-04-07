@@ -1,0 +1,7 @@
+[43125]{-1}[-1/-1] 2024-05-20 10:15:30.123 i GlobalRowStore    GlobalRowStore.cpp(00123) : Global RowStore Runtime Started.
+[43125]{-1}[-1/-1] 2024-05-20 10:15:35.456 i Service          Service.cpp(01042) : Indexserver started. Version: 2.00.061.00.1644
+[44200]{201045}[12/-1] 2024-05-20 11:20:05.789 w Authorization    Authorizer.cpp(02150) : Invalid password for user: APP_USER from IP: 192.168.1.50
+[45110]{201080}[-1/-1] 2024-05-20 11:45:12.001 e Memory           MemoryManager.cpp(00567) : OUT OF MEMORY occurred. Failed to allocate 2147483648 byte (2 GB).
+[45110]{201080}[-1/-1] 2024-05-20 11:45:12.001 e Memory           MemoryManager.cpp(00568) : Current pool used: 15.1 GB, Pool limit: 16.0 GB.
+[45110]{201080}[-1/-1] 2024-05-20 11:45:12.002 e Statement        Statement.cpp(03421) : Statement 'SELECT * FROM "BIG_DATA"."SALES" ...' terminated due to OOM.
+[46005]{-1}[-1/-1] 2024-05-20 12:00:00.050 i Backup           BackupManager.cpp(00890) : Savepoint finished successfully.
