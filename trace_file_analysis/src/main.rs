@@ -9,12 +9,17 @@ use arrow::array::StringArray;
 use arrow::record_batch::RecordBatch;
 use arrow::datatypes::{DataType, Field, Schema as ArrowSchema};
 
-#[derive(Debug)]
+use rdkafka::config::ClientConfig;
+use rdkafka::producer::{FutureProducer, FutureRecord};
+use serde::Serialize;
+use std::time::Duration;
+
+#[derive(Debug, Serialize, Debug)]
 struct HanaLogEntry {
     timestamp: String,
-    level: char,
+    level:     char,
     component: String,
-    message: String,
+    message:   String,
 }
 
 /// Преобразование Vec в Arrow RecordBatch
@@ -99,6 +104,32 @@ async fn main() -> Result<()>
     println!("Arrow RecordBatch готов к записи в Iceberg:");
     println!("{:?}", batch);
 
+
+    // 1. Настройка продюсера
+    let producer: FutureProducer = ClientConfig::new()
+        .set("bootstrap.servers", "localhost:9092")
+        .set("message.timeout.ms", "5000")
+        .create()
+        .expect("Producer creation error");
+
+
+    // 2. Сериализация в JSON строку
+    let payload = serde_json::to_string(&logs).expect("Serialization failed");
+
+    // 4. Отправка в топик "hana_logs"
+    println!("Отправка лога в Kafka...");
+    
+    let delivery_status = producer.send(
+        FutureRecord::to("hana_logs")
+            .payload(&payload)
+            .key(&log_entry.component), // Используем компонент как ключ для партиционирования
+        Duration::from_secs(0),
+    ).await;
+
+    match delivery_status {
+        Ok(delivery) => println!("Доставлено в партицию {}, офсет {:?}", delivery.0, delivery.1),
+        Err((e, _)) => println!("Ошибка доставки: {:?}", e),
+    }
 
     Ok(())
 }
