@@ -14,7 +14,11 @@ use rdkafka::producer::{FutureProducer, FutureRecord};
 use serde::Serialize;
 use std::time::Duration;
 
-#[derive(Debug, Serialize, Debug)]
+#[derive(
+    Debug,
+    Serialize,
+    //Debug
+)]
 struct HanaLogEntry {
     timestamp: String,
     level:     char,
@@ -122,12 +126,13 @@ async fn main() -> Result<()>
     let delivery_status = producer.send(
         FutureRecord::to("hana_logs")
             .payload(&payload)
-            .key(&log_entry.component), // Используем компонент как ключ для партиционирования
+            //.key(&log_entry.component), // Используем компонент как ключ для партиционирования
+            .key(&logs[0].component), // Используем компонент как ключ для партиционирования
         Duration::from_secs(0),
     ).await;
 
     match delivery_status {
-        Ok(delivery) => println!("Доставлено в партицию {}, офсет {:?}", delivery.0, delivery.1),
+        Ok(delivery) => println!("Доставлено в партицию {}, офсет {:?}", delivery.partition, delivery.offset),
         Err((e, _)) => println!("Ошибка доставки: {:?}", e),
     }
 
