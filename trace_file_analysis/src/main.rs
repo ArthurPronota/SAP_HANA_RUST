@@ -12,7 +12,7 @@ struct HanaLogEntry {
 }
 
 fn main() -> io::Result<()> {
-    let path = "indexserver.trc";
+    let path = "logs/indexserver.trc";
     
     // Регулярное выражение для парсинга структуры HANA Trace
     // Принимает формат: {Thread}[Conn/Trans] Timestamp Level Component Source : Message

@@ -10,7 +10,7 @@ struct DumpSummary {
 }
 
 fn main() -> io::Result<()> {
-    let path = "indexserver_service.rtedump"; // Путь к дампу
+    let path = "logs/indexserver_service.rtedump"; // Путь к дампу
     let file = File::open(path)?;
     let reader = io::BufReader::new(file);
 
