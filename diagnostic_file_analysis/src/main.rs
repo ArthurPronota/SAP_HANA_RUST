@@ -59,7 +59,7 @@ fn main() -> io::Result<()> {
     println!("Память: {} / {} GB", summary.memory_used_gb, summary.memory_limit_gb);
     
     if summary.memory_used_gb >= summary.memory_limit_gb * 0.95 {
-        println!("🛑 КРИТИЧЕСКИЙ СТАТУС: Обнаружена нехватка памяти (OOM)!");
+        println!(" КРИТИЧЕСКИЙ СТАТУС: Обнаружена нехватка памяти (OOM)!");
     }
 
     if !summary.heavy_queries.is_empty() {
