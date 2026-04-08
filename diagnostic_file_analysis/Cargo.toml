@@ -7,5 +7,3 @@ homepage = "https://artaudiochats.t.me/"
 authors = ["Arthur Pronota <yhgvnhjk.986ght.jhgt543@gmail.com>"]
 
 [dependencies]
-regex = "1.12.2"
-chrono = "0.4.43"

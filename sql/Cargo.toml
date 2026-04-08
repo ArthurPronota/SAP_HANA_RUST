@@ -1,0 +1,11 @@
+[package]
+name = "sql"
+version = "0.1.0"
+edition = "2024"
+publish = false
+homepage = "https://artaudiochats.t.me/"
+authors = ["Arthur Pronota <yhgvnhjk.986ght.jhgt543@gmail.com>"]
+
+[dependencies]
+hdbconnect_async = "0.32"   # для async/await
+tokio = { version = "1", features = ["full"] }  # runtime для async

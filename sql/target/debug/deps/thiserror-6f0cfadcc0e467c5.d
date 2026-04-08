@@ -1,0 +1,14 @@
+C:\Users\user\work\MyWorks\Rust\SAP_HANA_RUST\sql\target\debug\deps\thiserror-6f0cfadcc0e467c5.d: C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\lib.rs C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\aserror.rs C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\display.rs C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\var.rs C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\private.rs C:\Users\user\work\MyWorks\Rust\SAP_HANA_RUST\sql\target\debug\build\thiserror-e584c1fa58a15f1f\out/private.rs
+
+C:\Users\user\work\MyWorks\Rust\SAP_HANA_RUST\sql\target\debug\deps\libthiserror-6f0cfadcc0e467c5.rlib: C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\lib.rs C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\aserror.rs C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\display.rs C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\var.rs C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\private.rs C:\Users\user\work\MyWorks\Rust\SAP_HANA_RUST\sql\target\debug\build\thiserror-e584c1fa58a15f1f\out/private.rs
+
+C:\Users\user\work\MyWorks\Rust\SAP_HANA_RUST\sql\target\debug\deps\libthiserror-6f0cfadcc0e467c5.rmeta: C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\lib.rs C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\aserror.rs C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\display.rs C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\var.rs C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\private.rs C:\Users\user\work\MyWorks\Rust\SAP_HANA_RUST\sql\target\debug\build\thiserror-e584c1fa58a15f1f\out/private.rs
+
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\lib.rs:
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\aserror.rs:
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\display.rs:
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\var.rs:
+C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\private.rs:
+C:\Users\user\work\MyWorks\Rust\SAP_HANA_RUST\sql\target\debug\build\thiserror-e584c1fa58a15f1f\out/private.rs:
+
+# env-dep:OUT_DIR=C:\\Users\\user\\work\\MyWorks\\Rust\\SAP_HANA_RUST\\sql\\target\\debug\\build\\thiserror-e584c1fa58a15f1f\\out

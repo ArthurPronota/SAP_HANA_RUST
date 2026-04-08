@@ -1,58 +1,80 @@
-use regex::Regex;
 use std::fs::File;
 use std::io::{self, BufRead};
-use std::path::Path;
 
-#[derive(Debug)]
-struct HanaLogEntry {
+#[derive(Default, Debug)]
+struct DumpSummary {
     timestamp: String,
-    level: char,
-    component: String,
-    message: String,
+    memory_used_gb: f64,
+    memory_limit_gb: f64,
+    heavy_queries: Vec<String>,
 }
 
 fn main() -> io::Result<()> {
-    let path = "indexserver.trc";
-    
-    // Регулярное выражение для парсинга структуры HANA Trace
-    // Принимает формат: {Thread}[Conn/Trans] Timestamp Level Component Source : Message
-    let log_re = Regex::new(r"\{?(-?\d+)\}?\[?(-?\d+/?-?\d*)\]?\s+(?P<ts>\d{4}-\d{2}-\d{2}\s\d{2}:\d{2}:\d{2}\.\d+)\s+(?P<level>[iwe])\s+(?P<comp>\w+)\s+[^:]+:\s+(?P<msg>.*)").unwrap();
-
+    let path = "indexserver_service.rtedump"; // Путь к дампу
     let file = File::open(path)?;
     let reader = io::BufReader::new(file);
 
-    println!("--- Анализ критических событий SAP HANA ---");
+    let mut summary = DumpSummary::default();
+    let mut current_section = String::new();
 
     for line in reader.lines() {
         let line = line?;
-        if let Some(caps) = log_re.captures(&line) {
-            let level = caps["level"].chars().next().unwrap();
-            
-            // Фильтруем только Ошибки (e) и Предупреждения (w)
-            if level == 'e' || level == 'w' {
-                let entry = HanaLogEntry {
-                    timestamp: caps["ts"].to_string(),
-                    level,
-                    component: caps["comp"].to_string(),
-                    message: caps["msg"].to_string(),
-                };
+        let trimmed = line.trim();
 
-                // Вывод с элементами "интеллектуального" анализа
-                match entry.level {
-                    'e' => print!("🔴 [КРИТИЧНО] "),
-                    'w' => print!("🟡 [ВНИМАНИЕ] "),
-                    _ => unreachable!(),
-                }
-                
-                println!("{} | {}: {}", entry.timestamp, entry.component, entry.message);
+        // 1. Определяем текущую секцию
+        if trimmed.starts_with('[') && trimmed.ends_with(']') {
+            current_section = trimmed.to_string();
+            continue;
+        }
 
-                // Пример реакции на конкретную проблему
-                if entry.message.contains("OUT OF MEMORY") {
-                    println!("   👉 СОВЕТ: Проверьте лимиты выделения памяти (GAL) и тяжелые запросы.");
+        // 2. Парсим данные в зависимости от секции
+        match current_section.as_str() {
+            "[SYSTEM_INFO]" => {
+                if trimmed.starts_with("Timestamp:") {
+                    summary.timestamp = trimmed.replace("Timestamp:", "").trim().to_string();
                 }
             }
+            "[MEMORY_STATUS]" => {
+                if trimmed.starts_with("Used:") {
+                    summary.memory_used_gb = parse_gb(trimmed);
+                } else if trimmed.starts_with("Limit:") {
+                    summary.memory_limit_gb = parse_gb(trimmed);
+                }
+            }
+            "[THREADS]" => {
+                // Ищем строки с SQL запросами в активных потоках
+                if trimmed.starts_with("Thread") && trimmed.contains("SQL:") {
+                    if let Some(sql) = trimmed.split("SQL:").last() {
+                        summary.heavy_queries.push(sql.trim().to_string());
+                    }
+                }
+            }
+            _ => {}
+        }
+    }
+
+    // Диагностический вывод
+    println!("--- Результат анализа SAP HANA Dump ---");
+    println!("Время дампа: {}", summary.timestamp);
+    println!("Память: {} / {} GB", summary.memory_used_gb, summary.memory_limit_gb);
+    
+    if summary.memory_used_gb >= summary.memory_limit_gb * 0.95 {
+        println!("🛑 КРИТИЧЕСКИЙ СТАТУС: Обнаружена нехватка памяти (OOM)!");
+    }
+
+    if !summary.heavy_queries.is_empty() {
+        println!("🔍 Тяжелые запросы в момент сбоя:");
+        for sql in summary.heavy_queries {
+            println!("   - {}", sql);
         }
     }
 
     Ok(())
+}
+
+// Хелпер для извлечения чисел из строк типа "Used: 62.5 GB"
+fn parse_gb(line: &str) -> f64 {
+    line.split_whitespace()
+        .find_map(|s| s.parse::<f64>().ok())
+        .unwrap_or(0.0)
 }

@@ -1,0 +1,306 @@
+   0.016480100s  INFO prepare_target{force=false package_id=diagnostic_file_analysis v0.1.0 (C:\Users\user\work\MyWorks\Rust\SAP_HANA_RUST\diagnostic_file_analysis) target="diagnostic_file_analysis"}: cargo::core::compiler::fingerprint: fingerprint error for diagnostic_file_analysis v0.1.0 (C:\Users\user\work\MyWorks\Rust\SAP_HANA_RUST\diagnostic_file_analysis)/Check { test: false }/TargetInner { name: "diagnostic_file_analysis", doc: true, ..: with_path("C:\\Users\\user\\work\\MyWorks\\Rust\\SAP_HANA_RUST\\diagnostic_file_analysis\\src\\main.rs", Edition2024) }
+   0.016515200s  INFO prepare_target{force=false package_id=diagnostic_file_analysis v0.1.0 (C:\Users\user\work\MyWorks\Rust\SAP_HANA_RUST\diagnostic_file_analysis) target="diagnostic_file_analysis"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\work\MyWorks\Rust\SAP_HANA_RUST\diagnostic_file_analysis\target\debug\.fingerprint\diagnostic_file_analysis-87694bc34dd893b6\bin-diagnostic_file_analysis`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.023979100s  INFO prepare_target{force=false package_id=chrono v0.4.44 target="chrono"}: cargo::core::compiler::fingerprint: fingerprint error for chrono v0.4.44/Check { test: false }/TargetInner { ..: lib_target("chrono", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\chrono-0.4.44\\src\\lib.rs", Edition2021) }
+   0.024132200s  INFO prepare_target{force=false package_id=chrono v0.4.44 target="chrono"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\work\MyWorks\Rust\SAP_HANA_RUST\diagnostic_file_analysis\target\debug\.fingerprint\chrono-16e58b20e4dcb1d1\lib-chrono`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_libgit2_prerelease
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   0.024475400s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="num_traits"}: cargo::core::compiler::fingerprint: fingerprint error for num-traits v0.2.19/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("num_traits", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\num-traits-0.2.19\\src\\lib.rs", Edition2021) }
+   0.024487500s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="num_traits"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\work\MyWorks\Rust\SAP_HANA_RUST\diagnostic_file_analysis\target\debug\.fingerprint\num-traits-1a72a24364706097\lib-num_traits`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.025050800s  INFO prepare_target{force=false package_id=windows-link v0.2.1 target="windows_link"}: cargo::core::compiler::fingerprint: fingerprint error for windows-link v0.2.1/Check { test: false }/TargetInner { ..: lib_target("windows_link", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\windows-link-0.2.1\\src\\lib.rs", Edition2021) }
+   0.025061300s  INFO prepare_target{force=false package_id=windows-link v0.2.1 target="windows_link"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\work\MyWorks\Rust\SAP_HANA_RUST\diagnostic_file_analysis\target\debug\.fingerprint\windows-link-3842c44045075457\lib-windows_link`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.025346200s  INFO prepare_target{force=false package_id=regex v1.12.3 target="regex"}: cargo::core::compiler::fingerprint: fingerprint error for regex v1.12.3/Check { test: false }/TargetInner { ..: lib_target("regex", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\regex-1.12.3\\src\\lib.rs", Edition2021) }
+   0.025358300s  INFO prepare_target{force=false package_id=regex v1.12.3 target="regex"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\work\MyWorks\Rust\SAP_HANA_RUST\diagnostic_file_analysis\target\debug\.fingerprint\regex-4e42ed9e53aea960\lib-regex`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_libgit2_prerelease
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   0.025655400s  INFO prepare_target{force=false package_id=aho-corasick v1.1.4 target="aho_corasick"}: cargo::core::compiler::fingerprint: fingerprint error for aho-corasick v1.1.4/Check { test: false }/TargetInner { ..: lib_target("aho_corasick", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\aho-corasick-1.1.4\\src\\lib.rs", Edition2021) }
+   0.025666100s  INFO prepare_target{force=false package_id=aho-corasick v1.1.4 target="aho_corasick"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\work\MyWorks\Rust\SAP_HANA_RUST\diagnostic_file_analysis\target\debug\.fingerprint\aho-corasick-a2f39d59bb2cf599\lib-aho_corasick`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.025887400s  INFO prepare_target{force=false package_id=memchr v2.8.0 target="memchr"}: cargo::core::compiler::fingerprint: fingerprint error for memchr v2.8.0/Check { test: false }/TargetInner { benched: false, ..: lib_target("memchr", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\memchr-2.8.0\\src\\lib.rs", Edition2021) }
+   0.025896100s  INFO prepare_target{force=false package_id=memchr v2.8.0 target="memchr"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\work\MyWorks\Rust\SAP_HANA_RUST\diagnostic_file_analysis\target\debug\.fingerprint\memchr-1c02374c54943323\lib-memchr`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.026118100s  INFO prepare_target{force=false package_id=regex-automata v0.4.14 target="regex_automata"}: cargo::core::compiler::fingerprint: fingerprint error for regex-automata v0.4.14/Check { test: false }/TargetInner { benched: false, ..: lib_target("regex_automata", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\regex-automata-0.4.14\\src\\lib.rs", Edition2021) }
+   0.026126600s  INFO prepare_target{force=false package_id=regex-automata v0.4.14 target="regex_automata"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\work\MyWorks\Rust\SAP_HANA_RUST\diagnostic_file_analysis\target\debug\.fingerprint\regex-automata-e864097dd45e425b\lib-regex_automata`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.026401600s  INFO prepare_target{force=false package_id=regex-syntax v0.8.10 target="regex_syntax"}: cargo::core::compiler::fingerprint: fingerprint error for regex-syntax v0.8.10/Check { test: false }/TargetInner { ..: lib_target("regex_syntax", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\regex-syntax-0.8.10\\src\\lib.rs", Edition2021) }
+   0.026409400s  INFO prepare_target{force=false package_id=regex-syntax v0.8.10 target="regex_syntax"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\work\MyWorks\Rust\SAP_HANA_RUST\diagnostic_file_analysis\target\debug\.fingerprint\regex-syntax-cca394379e9f6706\lib-regex_syntax`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.026688800s  INFO prepare_target{force=false package_id=diagnostic_file_analysis v0.1.0 (C:\Users\user\work\MyWorks\Rust\SAP_HANA_RUST\diagnostic_file_analysis) target="diagnostic_file_analysis"}: cargo::core::compiler::fingerprint: fingerprint error for diagnostic_file_analysis v0.1.0 (C:\Users\user\work\MyWorks\Rust\SAP_HANA_RUST\diagnostic_file_analysis)/Check { test: true }/TargetInner { name: "diagnostic_file_analysis", doc: true, ..: with_path("C:\\Users\\user\\work\\MyWorks\\Rust\\SAP_HANA_RUST\\diagnostic_file_analysis\\src\\main.rs", Edition2024) }
+   0.026698500s  INFO prepare_target{force=false package_id=diagnostic_file_analysis v0.1.0 (C:\Users\user\work\MyWorks\Rust\SAP_HANA_RUST\diagnostic_file_analysis) target="diagnostic_file_analysis"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\work\MyWorks\Rust\SAP_HANA_RUST\diagnostic_file_analysis\target\debug\.fingerprint\diagnostic_file_analysis-23b853c6976ad3a4\test-bin-diagnostic_file_analysis`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+    Checking memchr v2.8.0
+    Checking regex-syntax v0.8.10
+    Checking windows-link v0.2.1
+    Checking num-traits v0.2.19
+    Checking aho-corasick v1.1.4
+    Checking chrono v0.4.44
+    Checking regex-automata v0.4.14
+    Checking regex v1.12.3
+    Checking diagnostic_file_analysis v0.1.0 (C:\Users\user\work\MyWorks\Rust\SAP_HANA_RUST\diagnostic_file_analysis)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 2.24s
