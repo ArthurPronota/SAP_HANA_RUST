@@ -1,0 +1,6 @@
+.cursor/
+.docs-cache/
+ReadMe.txt
+
+/target/
+/parser_logs/
