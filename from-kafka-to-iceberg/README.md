@@ -139,6 +139,18 @@ flowchart LR
 На любом Err: stderr + exit(1)
 ```
 
+## Документация API (rustdoc)
+
+По аналогии с проектом **rust-log-parser**: корневой **`//!`** в [`src/main.rs`](src/main.rs) описывает крейт и модули; публичные элементы доступны с главной страницы сгенерированной документации.
+
+Из корня репозитория:
+
+```bash
+cargo doc --no-deps --open
+```
+
+Будет открыт HTML с описанием публичного API (в т.ч. реэкспортов `pub use` из `main.rs` и документации подмодулей `env_work`, `kafka`, `iceberg`, `my_log`).
+
 ## Зависимости (основные)
 
 См. [`Cargo.toml`](Cargo.toml): `tokio`, `rdkafka`, `serde` / `serde_json`, `iceberg`, `arrow-array`, `parquet`, `tracing`, `dotenv`.
