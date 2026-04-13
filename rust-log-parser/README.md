@@ -59,15 +59,15 @@ flowchart TB
   A[Старт] --> B[Инициализация tracing -> parser_logs/]
   B --> C[Чтение .env и переменных окружения]
   C --> D[CLI: --log_file]
-  D --> E{Файл существует?}
-  E -- нет --> X[Лог ошибки и exit(1)]
+  D --> E{"Файл существует?"}
+  E -- нет --> X["Лог ошибки и exit(1)"]
   E -- да --> F[Чтение файла и разбор строк -> Vec LogEntry]
-  F --> G{Есть записи?}
+  F --> G{"Есть записи?"}
   G -- нет --> H[Выход 0]
-  G -- да --> I[Kafka: Vec LogEntry -> JSON -> send_log_entries_to_kafka]
-  I --> J{OK?}
+  G -- да --> I["Kafka: Vec LogEntry -> JSON -> send_log_entries_to_kafka"]
+  I --> J{"OK?"}
   J -- да --> H
-  J -- нет --> Y[Лог ошибки и exit(1)]
+  J -- нет --> Y["Лог ошибки и exit(1)"]
 ```
 
 ### Поток данных (упрощённо)
