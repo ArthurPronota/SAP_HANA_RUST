@@ -1,0 +1,402 @@
+2026-04-12T09:19:22.200630Z  INFO rust_log_parser: 92: старт разбора log_file=./hana_logs/indexserver.trc
+2026-04-12T09:19:22.206330Z  INFO rust_log_parser: 107: разбор завершён count=7
+2026-04-12T09:19:24.245887Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2037ms in state CONNECT)
+2026-04-12T09:19:24.246175Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:19:24.246254Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:19:24.246302Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:19:26.337369Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2040ms in state CONNECT)
+2026-04-12T09:19:26.337532Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:19:26.337587Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:19:26.337642Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:19:28.753306Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2047ms in state CONNECT, 1 identical error(s) suppressed)
+2026-04-12T09:19:28.753601Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:19:28.753722Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:19:28.753832Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:19:31.324056Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2027ms in state CONNECT)
+2026-04-12T09:19:31.324375Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:19:31.325267Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:19:31.325442Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:19:33.405069Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:19:33.405265Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:19:35.842395Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2049ms in state CONNECT)
+2026-04-12T09:19:35.842677Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:19:35.842796Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:19:35.842906Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:19:38.407195Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2041ms in state CONNECT)
+2026-04-12T09:19:38.407488Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:19:38.407607Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:19:38.407713Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:19:40.490273Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:19:40.490531Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:19:42.919699Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2045ms in state CONNECT)
+2026-04-12T09:19:42.919828Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:19:42.919874Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:19:42.920110Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:19:45.459161Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2030ms in state CONNECT)
+2026-04-12T09:19:45.459431Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:19:45.459547Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:19:45.459659Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:19:47.563961Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:19:47.564250Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:19:49.997458Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2041ms in state CONNECT)
+2026-04-12T09:19:49.997697Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:19:49.997959Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 0/1 brokers are down
+2026-04-12T09:19:49.998055Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:19:52.537291Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:19:52.537347Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:19:54.637568Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:19:54.637894Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:19:57.064051Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2039ms in state CONNECT)
+2026-04-12T09:19:57.064340Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:19:57.064464Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:19:57.064592Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:19:59.629296Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2036ms in state CONNECT, 1 identical error(s) suppressed)
+2026-04-12T09:19:59.629477Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:19:59.629516Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:19:59.629541Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:20:01.740994Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:20:01.741281Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:20:04.159508Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2058ms in state CONNECT)
+2026-04-12T09:20:04.159982Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:20:04.160483Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 0/1 brokers are down
+2026-04-12T09:20:04.160723Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:20:06.711261Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2050ms in state CONNECT)
+2026-04-12T09:20:06.711379Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:20:06.711609Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:20:06.711697Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:20:08.812486Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:20:08.812549Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:20:11.202161Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2028ms in state CONNECT)
+2026-04-12T09:20:11.202227Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:20:11.202364Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 0/1 brokers are down
+2026-04-12T09:20:11.202385Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:20:13.787813Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:20:13.788075Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:20:15.852483Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2048ms in state CONNECT)
+2026-04-12T09:20:15.852690Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:20:15.852772Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:20:15.852920Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:20:18.286655Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:20:18.287105Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:20:20.342990Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:20:20.343251Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:20:22.920307Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:20:22.920559Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:20:25.004457Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2043ms in state CONNECT)
+2026-04-12T09:20:25.004771Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:20:25.004897Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:20:25.005010Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:20:27.396548Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2031ms in state CONNECT)
+2026-04-12T09:20:27.396685Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:20:27.396730Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:20:27.396793Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:20:29.988783Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2038ms in state CONNECT, 1 identical error(s) suppressed)
+2026-04-12T09:20:29.988878Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:20:29.988905Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:20:29.988929Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:20:32.095349Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:20:32.095474Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:20:34.477111Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2060ms in state CONNECT)
+2026-04-12T09:20:34.477393Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:20:34.477510Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:20:34.477620Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:20:37.080004Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2060ms in state CONNECT)
+2026-04-12T09:20:37.080283Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:20:37.080406Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:20:37.080524Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:20:39.139602Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:20:39.139884Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:20:41.528185Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:20:41.528452Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:20:44.125004Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2044ms in state CONNECT)
+2026-04-12T09:20:44.125066Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:20:44.125098Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:20:44.125112Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:20:46.234533Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2067ms in state CONNECT)
+2026-04-12T09:20:46.234774Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:20:46.234864Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:20:46.234952Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:20:48.653298Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:20:48.653571Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:20:51.228856Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2042ms in state CONNECT)
+2026-04-12T09:20:51.229040Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:20:51.229110Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:20:51.229172Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:20:53.299331Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:20:53.299564Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:20:55.689731Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:20:55.690001Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:20:58.301385Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2058ms in state CONNECT)
+2026-04-12T09:20:58.301449Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:20:58.301468Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:20:58.301482Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:21:00.344656Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2022ms in state CONNECT, 1 identical error(s) suppressed)
+2026-04-12T09:21:00.344774Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:21:00.344814Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 0/1 brokers are down
+2026-04-12T09:21:00.344847Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:21:02.731532Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:21:02.731620Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:21:05.370560Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:21:05.370618Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:21:07.403425Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:21:07.403555Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:21:09.451871Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:21:09.452102Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:21:11.778995Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:21:11.779097Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:21:14.440171Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:21:14.440472Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:21:16.498815Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2036ms in state CONNECT)
+2026-04-12T09:21:16.499018Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:21:16.499095Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:21:16.499169Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:21:18.851229Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:21:18.851447Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:21:21.502742Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2039ms in state CONNECT)
+2026-04-12T09:21:21.502877Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:21:21.502924Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:21:21.502963Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:21:23.573409Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:21:23.573477Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:21:25.931316Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2041ms in state CONNECT)
+2026-04-12T09:21:25.931387Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:21:25.931408Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:21:25.931426Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:21:28.570862Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2038ms in state CONNECT)
+2026-04-12T09:21:28.570992Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:21:28.571033Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:21:28.571065Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:21:30.617419Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2027ms in state CONNECT, 1 identical error(s) suppressed)
+2026-04-12T09:21:30.617718Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:21:30.617834Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:21:30.617944Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:21:33.006158Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2034ms in state CONNECT)
+2026-04-12T09:21:33.006246Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:21:33.006272Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:21:33.006292Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:21:35.620910Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2033ms in state CONNECT)
+2026-04-12T09:21:35.621043Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:21:35.621091Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:21:35.621127Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:21:37.703925Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2038ms in state CONNECT)
+2026-04-12T09:21:37.704092Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:21:37.704152Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:21:37.704206Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:21:40.087066Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2048ms in state CONNECT)
+2026-04-12T09:21:40.087240Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:21:40.087308Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:21:40.087417Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:21:42.686420Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:21:42.686590Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:21:44.760176Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2039ms in state CONNECT)
+2026-04-12T09:21:44.760480Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:21:44.760597Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:21:44.760899Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:21:47.169588Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:21:47.169879Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:21:49.758713Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:21:49.758988Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:21:51.833455Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:21:51.833758Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:21:54.185812Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2025ms in state CONNECT)
+2026-04-12T09:21:54.185923Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:21:54.185957Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 0/1 brokers are down
+2026-04-12T09:21:54.185983Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:21:56.805706Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:21:56.806022Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:21:58.895252Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:21:58.895522Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:22:01.278396Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2033ms in state CONNECT, 3 identical error(s) suppressed)
+2026-04-12T09:22:01.278512Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:22:01.278553Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:22:01.278642Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:22:03.868026Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2044ms in state CONNECT)
+2026-04-12T09:22:03.868323Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:22:03.868442Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:22:03.868553Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:22:05.958451Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2036ms in state CONNECT)
+2026-04-12T09:22:05.958755Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:22:05.958875Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:22:05.959216Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:22:08.354035Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2053ms in state CONNECT)
+2026-04-12T09:22:08.354350Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:22:08.354477Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:22:08.354557Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:22:10.932090Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2025ms in state CONNECT)
+2026-04-12T09:22:10.932153Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:22:10.932782Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 0/1 brokers are down
+2026-04-12T09:22:10.932816Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:22:13.036699Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2048ms in state CONNECT)
+2026-04-12T09:22:13.036840Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:22:13.036876Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:22:13.036895Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:22:15.397999Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2042ms in state CONNECT)
+2026-04-12T09:22:15.398213Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:22:15.398331Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:22:15.398428Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:22:17.989662Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2018ms in state CONNECT)
+2026-04-12T09:22:17.989764Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:22:17.989799Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:22:17.989829Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:22:20.070767Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:22:20.070893Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:22:22.446481Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2032ms in state CONNECT)
+2026-04-12T09:22:22.446750Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:22:22.446862Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:22:22.446966Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:22:25.049722Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2026ms in state CONNECT)
+2026-04-12T09:22:25.050018Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:22:25.050122Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:22:25.050212Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:22:27.138029Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:22:27.138205Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:22:29.498258Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2036ms in state CONNECT)
+2026-04-12T09:22:29.498492Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:22:29.498576Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:22:29.498653Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:22:32.103139Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2023ms in state CONNECT)
+2026-04-12T09:22:32.103542Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:22:32.103678Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:22:32.103784Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:22:34.188343Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2034ms in state CONNECT)
+2026-04-12T09:22:34.188600Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:22:34.188682Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:22:34.188731Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:22:36.539569Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2020ms in state CONNECT, 1 identical error(s) suppressed)
+2026-04-12T09:22:36.539739Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:22:36.539798Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:22:36.539848Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:22:39.169652Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2016ms in state CONNECT)
+2026-04-12T09:22:39.169979Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:22:39.170063Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:22:39.170117Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:22:41.240001Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:22:41.240304Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:22:43.599274Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:22:43.599508Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:22:46.254527Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2035ms in state CONNECT)
+2026-04-12T09:22:46.254654Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:22:46.254698Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:22:46.254734Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:22:48.288885Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2011ms in state CONNECT)
+2026-04-12T09:22:48.289052Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:22:48.289117Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:22:48.289179Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:22:50.660371Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2022ms in state CONNECT)
+2026-04-12T09:22:50.660539Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:22:50.660603Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 0/1 brokers are down
+2026-04-12T09:22:50.660661Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:22:53.285389Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:22:53.285459Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:22:55.352339Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2016ms in state CONNECT)
+2026-04-12T09:22:55.352403Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:22:55.352422Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:22:55.352437Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:22:57.735547Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2033ms in state CONNECT)
+2026-04-12T09:22:57.736038Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:22:57.736230Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:22:57.736359Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:23:00.322827Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:23:00.323123Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:23:02.429398Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2040ms in state CONNECT)
+2026-04-12T09:23:02.429761Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:23:02.430208Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:23:02.430379Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:23:04.797225Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:23:04.797515Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:23:07.400702Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2026ms in state CONNECT)
+2026-04-12T09:23:07.400985Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:23:07.402111Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 0/1 brokers are down
+2026-04-12T09:23:07.402280Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:23:09.486724Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2033ms in state CONNECT, 1 identical error(s) suppressed)
+2026-04-12T09:23:09.486794Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:23:09.486816Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:23:09.486834Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:23:11.833727Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:23:11.833954Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:23:14.470129Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:23:14.470406Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:23:16.531816Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2023ms in state CONNECT)
+2026-04-12T09:23:16.532121Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:23:16.532241Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 0/1 brokers are down
+2026-04-12T09:23:16.532359Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:23:18.909779Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:23:18.909880Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:23:21.517138Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2015ms in state CONNECT)
+2026-04-12T09:23:21.517342Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:23:21.517427Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 0/1 brokers are down
+2026-04-12T09:23:21.517500Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:23:23.586624Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2015ms in state CONNECT)
+2026-04-12T09:23:23.586877Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:23:23.587476Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 0/1 brokers are down
+2026-04-12T09:23:23.587657Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:23:25.957190Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:23:25.957278Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:23:27.983583Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:23:27.983716Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:23:30.626657Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:23:30.626741Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:23:32.708669Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:23:32.708833Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:23:35.019749Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:23:35.019884Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:23:37.059555Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:23:37.059661Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:23:39.733224Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2046ms in state CONNECT, 7 identical error(s) suppressed)
+2026-04-12T09:23:39.733353Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:23:39.733398Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:23:39.733434Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:23:41.788944Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:23:41.789188Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:23:44.128065Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:23:44.128185Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:23:46.764339Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:23:46.764583Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:23:48.868239Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:23:48.868397Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:23:51.182694Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:23:51.182821Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:23:53.863909Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:23:53.864390Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:23:55.942921Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:23:55.943117Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:23:58.228069Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2018ms in state CONNECT)
+2026-04-12T09:23:58.228391Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:23:58.228538Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:23:58.228650Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:24:00.919043Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 0/1 brokers are down
+2026-04-12T09:24:00.919221Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:24:02.987075Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2020ms in state CONNECT)
+2026-04-12T09:24:02.987137Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:24:02.987156Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:24:02.987169Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:24:05.309033Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2034ms in state CONNECT)
+2026-04-12T09:24:05.309266Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:24:05.309359Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:24:05.309449Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:24:08.004696Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2052ms in state CONNECT)
+2026-04-12T09:24:08.004978Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:24:08.005091Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:24:08.005202Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:24:10.058973Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2038ms in state CONNECT, 1 identical error(s) suppressed)
+2026-04-12T09:24:10.059257Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:24:10.059376Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:24:10.059489Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:24:12.373101Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2031ms in state CONNECT)
+2026-04-12T09:24:12.373375Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:24:12.373487Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:24:12.373577Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:24:15.064556Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2039ms in state CONNECT)
+2026-04-12T09:24:15.065049Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:24:15.065488Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:24:15.065703Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:24:17.135762Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:24:17.135913Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:24:19.432192Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv4#127.0.0.1:9092 failed: Unknown error (after 2035ms in state CONNECT)
+2026-04-12T09:24:19.432306Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:24:19.432354Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:24:19.432386Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:24:22.117445Z ERROR rdkafka::client: 116: librdkafka: Global error: BrokerTransportFailure (Local: Broker transport failure): localhost:9092/bootstrap: Connect to ipv6#[::1]:9092 failed: Unknown error (after 2041ms in state CONNECT)
+2026-04-12T09:24:22.117530Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
+2026-04-12T09:24:22.117560Z ERROR rdkafka::client: 116: librdkafka: Global error: AllBrokersDown (Local: All broker connections are down): 1/1 brokers are down
+2026-04-12T09:24:22.117582Z  WARN rdkafka::producer::base_producer: 376: Ignored event 'Error' on base producer poll
