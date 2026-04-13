@@ -1,0 +1,5 @@
+.cursor/
+.docs-cache/
+.vscode/
+
+/target/
