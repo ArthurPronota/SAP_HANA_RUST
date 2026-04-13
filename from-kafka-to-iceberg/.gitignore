@@ -1,0 +1,7 @@
+.cursor/
+.docs-cache/
+.vscode/
+ReadMe.txt
+
+/target/
+/parser_logs/
